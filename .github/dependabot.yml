@@ -1,7 +1,7 @@
 version: 2
 updates:
 - package-ecosystem: github-actions
-  directory: "/"
+  directory: /
   schedule:
     interval: monthly
   open-pull-requests-limit: 10
@@ -9,7 +9,7 @@ updates:
   - enhancement
   - dependency-management
 - package-ecosystem: gomod
-  directory: "/"
+  directory: /
   schedule:
     interval: monthly
   open-pull-requests-limit: 10
@@ -17,7 +17,7 @@ updates:
   - enhancement
   - dependency-management
 - package-ecosystem: docker
-  directory: "/"
+  directory: /
   schedule:
     interval: monthly
   open-pull-requests-limit: 10
